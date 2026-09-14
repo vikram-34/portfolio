@@ -1,0 +1,29 @@
+{
+  "name": "form-and-function-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=20.19.0" },
+  "scripts": { "dev": "vite --host 127.0.0.1", "build": "vite build", "preview": "vite preview --host 127.0.0.1" },
+  "dependencies": {
+    "@fontsource/space-grotesk": "^5.2.5",
+    "@fontsource/ibm-plex-mono": "^5.2.5",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "framer-motion": "^11.18.2",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.4",
+    "lucide-react": "^0.468.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "^0.170.0",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.3.5"
+  }
+}
